@@ -8,6 +8,7 @@ gem 'rails_12factor', '0.0.2'
 gem 'rails', '4.0.0'
 
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '0.15.1'
@@ -37,6 +38,10 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '0.3.20', require: false
 end
+
+group :test do
+	gem 'factory_girl_rails', '4.2.1'
+	end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
