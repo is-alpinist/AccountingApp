@@ -7,6 +7,8 @@ gem 'rails_12factor', '0.0.2'
 
 gem 'rails', '4.0.0'
 
+gem 'bootstrap-sass', '2.3.2.0'
+
 # Use postgresql as the database for Active Record
 gem 'pg', '0.15.1'
 
