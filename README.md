@@ -1,4 +1,4 @@
-This is a production accounting multi-user purchase order draw down application.
+Production accounting purchase order draw-down application.
 
 The model is:
 
